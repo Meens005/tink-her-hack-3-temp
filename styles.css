@@ -1,0 +1,126 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    display: flex;
+  }
+  
+  .container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 20%;
+    background-color: #fff;
+    border-right: 1px solid #ddd;
+    padding: 1rem;
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar h2 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .modules {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .modules li h3 {
+    font-size: 1rem;
+    color: #555;
+    margin: 0.5rem 0;
+  }
+  
+  .modules li ul {
+    list-style: none;
+    padding: 0 0 0 1rem;
+  }
+  
+  .modules li ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 0.9rem;
+  }
+  
+  .modules li ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main content */
+  .content {
+    flex: 1;
+    padding: 1rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header {
+    margin-bottom: 1rem;
+  }
+  
+  .header h1 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .progress {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .lesson {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .lesson-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .lesson h2 {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  /* Footer controls */
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+  }
+  
+  .btn {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #0056b3;
+  }
+  
+  .btn:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
